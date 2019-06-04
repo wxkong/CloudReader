@@ -21,6 +21,7 @@ android {
     }
 
     // ------------------------注释下面代码(签名配置) ↓↓↓↓↓-----------------------------
+/*
     signingConfigs {
         debug {
             storeFile file(pStoreFile)
@@ -40,13 +41,14 @@ android {
             v2SigningEnabled true
         }
     }
+*/
 
     // gradle assembleRelease
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
         }
         debug {
             minifyEnabled false

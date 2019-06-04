@@ -10,6 +10,8 @@
 
 
 ## Introduce
+Forked from [youlookwhat/CloudReader](https://github.com/youlookwhat/CloudReader). 仅用于学习。
+
 一款基于网易云音乐UI，使用wanandroid、GankIo及时光网api开发的符合Google Material Desgin阅读类的开源项目。项目采取的是Retrofit2 + RxJava2 + MVVM-DataBinding架构开发。
 
 A netease cloud music based UI, using wanandroid、Gank.Io and mtime API development accord with Google Material Desgin reading class open source projects.
